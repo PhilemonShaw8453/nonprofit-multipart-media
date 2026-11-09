@@ -1,0 +1,9 @@
+{
+  "name": "nonprofit-multipart-media",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/multipart_upload.test.ts", "start": "tsx src/run_upload.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
